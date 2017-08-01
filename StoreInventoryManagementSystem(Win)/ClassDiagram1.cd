@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InventoryManagement">
+    <Position X="3.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAACAAgASAAACAACAAAAACAAEAAABAAAAAAAAgAAA=</HashCode>
+      <FileName>InventoryManagement.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="management" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MyList&lt;T&gt;">
+    <Position X="4" Y="8" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MyList&lt;T&gt;::Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DoubleList.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAgABAAACEAKAAAAACAAEQAAAACAAoAAAAEIE=</HashCode>
+      <FileName>DoubleList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyVector&lt;T&gt;">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAiAAEAAABAQAAEAKIAIIACAAEAAAAhCAAKQAAAAAA=</HashCode>
+      <FileName>TVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory">
+    <Position X="4" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AARAAAQAAAAAAAAACIAEEAAAAAAEAAIAAAAgCoAAAAE=</HashCode>
+      <FileName>Inventory.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="BestBefore" />
+      <Field Name="ManufDate" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="InventoryIndex">
+    <Position X="0.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>InventoryManagement.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="InventoryList" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Inventory_date">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAgAAAAAAA=</HashCode>
+      <FileName>Inventory.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
